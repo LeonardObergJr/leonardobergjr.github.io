@@ -1,5 +1,5 @@
 body {
-  background-color: #200237;  
+  background-color: #18161a;  
 
   font-family: 'Open Dyslexic', sans-serif;
   text-align: center;
@@ -13,19 +13,19 @@ body {
 }
 
 h1 {
-  color: green;
+  color: rgb(149, 221, 149);
   font-size: 3em; 
   margin: 0.5em 0;
 }
 
 h2 {
-  color: green;
+  color: rgb(149, 221, 149);
   font-size: 2em;
   margin: 0.5em 0;
 }
 
 p {
-  color: green;
+  color: rgb(149, 221, 149);
   font-size: 1.25em; 
   max-width: 90%; 
   margin: 0.5em auto; 
