@@ -1,0 +1,139 @@
+body {
+  background-color: #200237;  
+
+  font-family: "Henny Penny", system-ui;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: green;
+  font-size: 3em; 
+  margin: 0.5em 0;
+}
+
+h2 {
+  color: green;
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
+p {
+  color: green;
+  font-size: 1.25em; 
+  max-width: 90%; 
+  margin: 0.5em auto; 
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap; /* Ensure images wrap on smaller screens */
+  justify-content: center;
+  gap: 20px; /* Space between image-text containers */
+}
+
+.image-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 45%; /* Adjusted for less space */
+  margin: 10px;
+}
+
+img {
+  width: auto;
+  height: auto;
+  display: block;
+  max-width: 100%; /* Make sure the image fits within the container */
+  max-height: 40vh; /* Ensures the image does not take up too much vertical space */
+  border-radius: 15px;
+}
+
+nav a {
+  text-align: left;
+  text-decoration-line: underline;
+  padding-right: 75vw;
+}
+
+nav img {
+  width: 50px;
+  height: 50px;
+}
+
+/* No underline for anchors */
+a { 
+  text-decoration: none;
+}
+
+#btnInt {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between buttons */
+  margin-top: 20px;
+}
+
+.fixed-top-left { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 33px; 
+  /* Adjust size as needed */ 
+  height: auto; 
+  margin: 2px; /* Margin to keep it away from the edges */
+  padding-bottom: 50 px;
+ }
+
+/* Special button */
+
+.button-92 {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #44060B;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(41, 2, 2, 0.15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #5E99C6;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Henny Penny", system-ui;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-92:hover {
+  background-color: #841e1e;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-92:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-92::before {
+  box-shadow: rgba(174, 39, 39, 0.2) 0 6px 12px;
+}
