@@ -3,15 +3,17 @@ body {
 
   @font-face {
     font-family: 'Open-Dyslexic';
-    src: url('../fonts/OpenDyslexic-Regular.woff2') format('woff2');
+    src: url('../fonts/OpenDyslexic-Regular.otf') format('opentype');
     font-weight: 400;
-}
+    font-display: swap;
+  }
 
-@font-face {
+  @font-face {
     font-family: 'Open-Dyslexic';
-    src: url('../fonts/OpenDyslexic-Bold.woff2') format('woff2');
+    src: url('../fonts/OpenDyslexic-Bold.otf') format('opentype');
     font-weight: 700;
-}
+    font-display: swap;
+  }
   
   font-family: 'Open-Dyslexic', sans-serif;
   text-align: center;
