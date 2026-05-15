@@ -1,6 +1,18 @@
 body {
   background-color: #18161a;  
 
+  @font-face {
+    font-family: 'Open-Dyslexic';
+    src: url('../fonts/OpenDyslexic-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Open-Dyslexic';
+    src: url('../fonts/OpenDyslexic-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
+  
   font-family: 'Open-Dyslexic', sans-serif;
   text-align: center;
   margin: 0;
